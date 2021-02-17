@@ -1,1 +1,9 @@
-blabla
+cmd open
+	g:
+		G:\WebTech2021\Q585ZQWebTechGyak
+
+git add Q585ZQ_0210
+
+git commit -m "info"
+
+git push
