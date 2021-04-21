@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+	<head>
+		<title>A weblap szerkezete</title>
+		<meta charset="UTF-8">
+		<style>
+			article, section, aside, nav, header, footer {
+				display: block;
+			}
+			.fejlec {
+				font-size: 18pt;
+				font-family: Helvetica;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+
+			.urlap{
+				padding: 30px;
+				font-size: 12pt;
+				font-family: Helvetica;
+				background: #dfe3ea;
+				width: 500px;
+				height: 300px;
+				border-radius: 10px;
+				box-shadow: 5px 5px 10px #888888;
+			}
+
+			.lablec{
+				width: 560px;
+				font-size: 10px;
+				margin-top: 40px
+				border-top: 3px #888888 double;
+				padding-top: 30px;
+				text-align: right;
+				font-family: Helvetica;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<header id="fejlec" class="fejlec">
+			HTML5 Űrlap
+		</header>
+
+		<section id="tartalom" class="urlap">
+			<form>
+				Név : <input type="text" id="nev" name="nev" placeholder="Írd be a neved" autofocus autocomplete="on" required />
+				<br><br><br>
+				<input type="submit" value="ELKÜLDÖM" />
+			</form>
+		</section>
+
+		<footer id="lablec" class="lablec">
+			Forrás :
+			<a href="http://html5doctor.com/html5-forms-introduction-and-new-attributes" target="ujablak">
+				http://html5doctor.com/html5-forms-introduction-and-new-attributes
+			</a>
+		</footer>
+
+	</body>
+
+</html>
