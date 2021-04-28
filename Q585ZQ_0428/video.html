@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+	<head>
+		<title>Videó lejátszása</title>
+		<meta charset="UTF-8">
+		<style>
+			article, section, aside, nav, header, footer {
+				display: block;
+			}
+			.fejlec {
+				font-size: 18pt;
+				font-family: Helvetica;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+
+			.lablec{
+				width: 560px;
+				font-size: 10px;
+				margin-top: 40px
+				border-top: 3px #888888 double;
+				padding-top: 30px;
+				text-align: right;
+				font-family: Helvetica;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<header id="fejlec" class="fejlec">
+			Videó lejátszása
+		</header>
+
+		<section id="tartalom">
+			<video width="640" controls autoplay>
+				<source src="../../../html/HTML5_video2.mp4" type="video/mp4">
+				A böngésződ nem támogatja a HTML videók lejátszását.
+			</video>
+		</section>
+
+		<footer id="lablec" class="lablec">
+			Forrás :
+			<a href="http://www.w3schools.com/html/html5_video.asp" target="ujablak">
+				http://www.w3schools.com/html/html5_video.asp
+			</a>
+		</footer>
+
+	</body>
+
+</html>
