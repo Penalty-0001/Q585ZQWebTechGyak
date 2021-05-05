@@ -1,0 +1,11 @@
+body {
+	width: 650px;
+	border: 1px #666666 solid;
+	margin: 10px;
+	padding: 20px;
+	position: relative;
+}
+
+div {
+	margin-bottom: 20px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS 3</title>
+		<link rel="stylesheet" href="stilus.css">
+		<style>
+			span ~ div {
+				color: blue;
+				font-family: Verdana;
+				font-size: 20pt;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Selector-ok a CSS 3-ban</h1>
+		<div>
+			Első!!!
+		</div>
+		<div id="tartalom">
+			<div id="egyik">
+				Ez az egyik szöveg, amit majd megformázunk.
+			</div>
+			<div id="masik">
+				Ez egy másik szöveg, amit majd megformázunk.
+				<ul>
+					<li>Első listaelem
+					<li>Második listaelem
+					<li>Harmadik listaelem
+					<li>Utolsó listaelem
+				</ul>
+				<div>
+					Ez a lista alatt van.
+				</div>
+				<div>
+					Ez pedig még alattább.
+				</div>
+			</div>
+			<div id="harmadik">
+				<div id="egyke">
+					Ez a harmadik szöveg, amit majd megformázunk.
+				</div>
+			</div>
+			<span></span>
+			<div id="masmilyen">
+				Ez egy másik szöveg, amit majd megformázunk.
+				<ul>
+					<li>Első listaelem
+					<li>Második listaelem
+					<li>Harmadik listaelem
+					<li>Utolsó listaelem
+				</ul>
+			</div>
+			<br /><br />
+			<b>Forrás:</b>
+			<a href="http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/" target="ujablak">
+				http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/
+			</a>
+		</div>
+	</body>
+</html>
